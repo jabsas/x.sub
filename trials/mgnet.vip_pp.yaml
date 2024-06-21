@@ -117,7 +117,7 @@ proxy-groups:
 proxy-providers:
   HK:
     type: http
-    url: https://raw.kgithub.com/0xJins/x.sub/main/trials_providers/mgnet.vip/HK.yaml
+    url: https://raw.kgithub.com/jabsas/x.sub/main/trials_providers/mgnet.vip/HK.yaml
     interval: 180
     path: trials_providers/mgnet.vip/HK.yaml
     health-check:
@@ -126,7 +126,7 @@ proxy-providers:
       interval: 30
   SG:
     type: http
-    url: https://raw.kgithub.com/0xJins/x.sub/main/trials_providers/mgnet.vip/SG.yaml
+    url: https://raw.kgithub.com/jabsas/x.sub/main/trials_providers/mgnet.vip/SG.yaml
     interval: 180
     path: trials_providers/mgnet.vip/SG.yaml
     health-check:
@@ -135,7 +135,7 @@ proxy-providers:
       interval: 30
   JP:
     type: http
-    url: https://raw.kgithub.com/0xJins/x.sub/main/trials_providers/mgnet.vip/JP.yaml
+    url: https://raw.kgithub.com/jabsas/x.sub/main/trials_providers/mgnet.vip/JP.yaml
     interval: 180
     path: trials_providers/mgnet.vip/JP.yaml
     health-check:
@@ -144,7 +144,7 @@ proxy-providers:
       interval: 30
   US:
     type: http
-    url: https://raw.kgithub.com/0xJins/x.sub/main/trials_providers/mgnet.vip/US.yaml
+    url: https://raw.kgithub.com/jabsas/x.sub/main/trials_providers/mgnet.vip/US.yaml
     interval: 180
     path: trials_providers/mgnet.vip/US.yaml
     health-check:
@@ -153,7 +153,7 @@ proxy-providers:
       interval: 30
   Other:
     type: http
-    url: https://raw.kgithub.com/0xJins/x.sub/main/trials_providers/mgnet.vip/Other.yaml
+    url: https://raw.kgithub.com/jabsas/x.sub/main/trials_providers/mgnet.vip/Other.yaml
     interval: 180
     path: trials_providers/mgnet.vip/Other.yaml
     health-check:
