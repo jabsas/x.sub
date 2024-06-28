@@ -1,9 +1,9 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 vip1 日本-01 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 20356, type: trojan, password: 78ed56c8-1a61-4853-b534-ba8fcdf35478, sni: jp01.ckcloud.info, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 vip1 日本-02 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 20356, type: trojan, password: 78ed56c8-1a61-4853-b534-ba8fcdf35478, sni: jp01.ckcloud.info, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 vip1 日本-01 测试 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 57230, type: vmess, uuid: 78ed56c8-1a61-4853-b534-ba8fcdf35478, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp01.ckcloud.info, network: grpc, grpc-opts: {grpc-service-name: flynwn}, udp: true}
-- {name: 🇯🇵 vip1 日本-06 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 37581, type: trojan, password: 78ed56c8-1a61-4853-b534-ba8fcdf35478, sni: jp03.ckcloud.info, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 vip1 日本-07 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 37581, type: trojan, password: 78ed56c8-1a61-4853-b534-ba8fcdf35478, sni: jp03.ckcloud.info, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 vip1 日本-06 测试 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 16123, type: vmess, uuid: 78ed56c8-1a61-4853-b534-ba8fcdf35478, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp03.ckcloud.info, network: grpc, grpc-opts: {grpc-service-name: flynwn}, udp: true}
+- {name: 🇯🇵 vip1 日本-01 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 20356, type: trojan, password: 363cc69b-62f4-4f18-bbaf-3a385d6be87f, sni: jp01.ckcloud.info, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 vip1 日本-02 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 20356, type: trojan, password: 363cc69b-62f4-4f18-bbaf-3a385d6be87f, sni: jp01.ckcloud.info, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 vip1 日本-01 测试 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 57230, type: vmess, uuid: 363cc69b-62f4-4f18-bbaf-3a385d6be87f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp01.ckcloud.info, network: grpc, grpc-opts: {grpc-service-name: flynwn}, udp: true}
+- {name: 🇯🇵 vip1 日本-06 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 37581, type: trojan, password: 363cc69b-62f4-4f18-bbaf-3a385d6be87f, sni: jp03.ckcloud.info, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 vip1 日本-07 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 37581, type: trojan, password: 363cc69b-62f4-4f18-bbaf-3a385d6be87f, sni: jp03.ckcloud.info, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 vip1 日本-06 测试 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 16123, type: vmess, uuid: 363cc69b-62f4-4f18-bbaf-3a385d6be87f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp03.ckcloud.info, network: grpc, grpc-opts: {grpc-service-name: flynwn}, udp: true}
