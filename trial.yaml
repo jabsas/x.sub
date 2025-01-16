@@ -10,6 +10,7 @@ proxy-groups:
   type: select
   proxies:
   - ⚡ ‍低延迟
+  - 👆🏻 ‍指定
   - 🇭🇰 ‍香港
   - 🇹🇼 ‍台湾
   - 🇨🇳 ‍中国
@@ -17,7 +18,6 @@ proxy-groups:
   - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
   - 🎏 ‍其他
-  - 👆🏻 ‍指定
   - 👆🏻🇭🇰 ‍香港
   - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇨🇳 ‍中国
@@ -26,6 +26,7 @@ proxy-groups:
   - 👆🏻🇺🇸 ‍美国
   - 👆🏻🎏 ‍其他
   - DIRECT
+  - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
   url: https://i.ytimg.com/generate_204
@@ -695,6 +696,9 @@ proxy-groups:
   - 🇬🇧 vip1 英国-01 - FastFly
   - 🇬🇧 vip1 英国-02 - FastFly
   - 🇬🇧 vip1 英国-01 测试 - FastFly
+- name: 👆🏻 ‍指定
+  type: select
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -1672,9 +1676,6 @@ proxy-groups:
   - 🇬🇧 vip1 英国-01 - FastFly
   - 🇬🇧 vip1 英国-02 - FastFly
   - 🇬🇧 vip1 英国-01 测试 - FastFly
-- name: 👆🏻 ‍指定
-  type: select
-  proxies: *id001
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   proxies: *id002
@@ -2036,9 +2037,9 @@ proxies:
 - {name: 🇸🇬 JCBB_ 新加坡 04【vip1 】 - JCBB, server: gdct003.theyydsnode.top, port: 58464, type: trojan, password: 59e5183a-5432-4567-9258-b58e83bb77ef, sni: sg03.ckcloud.info, skip-cert-verify: true, udp: true}
 - {name: 🇸🇬 JCBB_ 新加坡 05【vip1】 - JCBB, server: shcm002.theyydsnode.top, port: 58464, type: trojan, password: 59e5183a-5432-4567-9258-b58e83bb77ef, sni: sg03.ckcloud.info, skip-cert-verify: true, udp: true}
 - {name: 🇸🇬 JCBB_ 新加坡 06【vip1】 - JCBB, server: gdct001.theyydsnode.top, port: 58464, type: trojan, password: 59e5183a-5432-4567-9258-b58e83bb77ef, sni: sg03.ckcloud.info, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 您还未购买服务 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 06f75436-fde1-40da-ae68-59fa3165489a, udp: true}
-- {name: 🇱🇦 请登录laomao.biz 购买 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 06f75436-fde1-40da-ae68-59fa3165489a, udp: true}
-- {name: ℹ️ 购买后请更新订阅 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 06f75436-fde1-40da-ae68-59fa3165489a, udp: true}
+- {name: ℹ️ 您还未购买服务 - 老猫云, server: www.google.com, port: 443, tfo: true, type: ss, cipher: aes-128-gcm, password: 06f75436-fde1-40da-ae68-59fa3165489a, udp: true}
+- {name: 🇱🇦 请登录laomao.biz 购买 - 老猫云, server: www.google.com, port: 443, tfo: true, type: ss, cipher: aes-128-gcm, password: 06f75436-fde1-40da-ae68-59fa3165489a, udp: true}
+- {name: ℹ️ 购买后请更新订阅 - 老猫云, server: www.google.com, port: 443, tfo: true, type: ss, cipher: aes-128-gcm, password: 06f75436-fde1-40da-ae68-59fa3165489a, udp: true}
 - {name: 🇭🇰 香港|SS直连二 - BIUBIU FAST 加速器, server: hk1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 2c452c47-2b22-4e2e-905e-7dad35322101, udp: true}
 - {name: 🇭🇰 香港|高速香港SS2（会员） - BIUBIU FAST 加速器, server: dl.biubiufast.quest, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: 2c452c47-2b22-4e2e-905e-7dad35322101, udp: true}
 - {name: 🇭🇰 香港|高速二SS（会员） - BIUBIU FAST 加速器, server: dl.biubiufast.quest, port: 22001, type: ss, cipher: chacha20-ietf-poly1305, password: 2c452c47-2b22-4e2e-905e-7dad35322101, udp: true}
